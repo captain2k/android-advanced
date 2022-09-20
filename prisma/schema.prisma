@@ -23,8 +23,6 @@ model User {
 
   careerUsers CareerUser[]
   userRegions UserRegion[]
-
-  @@map("user")
 }
 
 model Career {
